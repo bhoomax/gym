@@ -1,0 +1,121 @@
+body{
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.left{
+
+  display: inline-block;
+  position: relative;
+      left: 55px;
+      top: -2px;
+}
+.left img{
+  width: 55px;
+  filter: invert(100%);
+}
+.mid{
+
+display: block;
+width: 38%;
+margin: 0px auto;
+position: relative;
+bottom: 98px;
+position: relative;
+top: -142px;
+left: 59px;
+
+}
+.right{
+
+  display: inline-block;
+  position: absolute;
+  right:38px;
+  top: 12px;
+}
+.navbar li{
+  display: inline-block;
+  margin: 4px 36px;
+  font-size: 25px;
+
+}
+.navbar li a{
+  color: white;
+  text-decoration: none;
+
+
+}
+.navbar li a:hover{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.btn{
+
+  background-color: black;
+  color: white;
+  padding: 4px 6px;
+  margin: 0 5px;
+  font-family: 'Bebas Neue', cursive;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover{
+  color: black;
+  background-color: white;
+}
+
+h4{
+  text-align: center;
+  padding: 0;
+  position: relative;
+  bottom: 26px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+
+.form{
+  position: relative;
+  left: 125px;
+
+
+}
+
+.form button{
+  width: 211px;
+height: 35px;
+border-radius: 10px;
+font-size: 20px;
+}
+input{
+  margin-bottom: 10px;
+  width: 211px;
+height: 35px;
+border-radius: 10px;
+font-family: 'Bebas Neue', cursive;
+text-align: center;
+letter-spacing: 2.5px;
+color: black;
+}
+
+h2{
+  position: relative;
+    left: 61px;
+    font-size: 35px;
+    top: 18px;
+}
+
+.links{
+  display: inline-block;
+  position: relative;
+  left: 159px;
+    top: 37px;
+}
+
+i{
+  margin: 0 8px;
+  cursor: pointer;
+}
